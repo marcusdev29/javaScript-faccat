@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./js/script.js" defer></script>
+    
+    
+        <link rel="stylesheet" href="../css/style-telas.css">
+        <link rel="stylesheet" href="../css/style-global.css">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+           <title>aprovado</title> 
+    </head>
+    
+    
+    <body>
+        <div class="container">
+            <div class="partet">
+             <div class="text">
+
+    <h1>Descubra quem foi o time vencedor e quantos gols ele fez</h1>
+    <form action="">
+
+        <p>Digite o nome do time 1</p>
+        <input type="text" id="time1" placeholder="Nome do time 1"><br>
+
+        <p>Digite quantos gols o time 1 fez</p>
+        <input type="number" id="golsTime1" placeholder="Gols do time 1"><br>
+        <br>
+        <hr>
+
+        <p>Digite o nome do time 2</p>
+        <input type="text" id="time2" placeholder="Nome do time 2"><br>
+
+        <p>Digite quantos gols o time 2 fez</p>
+        <input type="number" id="golsTime2" placeholder="Gols do time 2"><br>
+
+        <input type="button" value="Verificar" onclick="timeVencedor()">
+        <br>
+        <hr id="line2">
+
+        <div id="Vencedor">
+
+            <p>O time Vencedor é: </p>
+            <input type="text" id="tVencedor" disabled="disabled"><br>
+
+            <p>Seus gols foram de: </p>
+            <input type="number" id="golsVencedor" disabled="disabled"><br>
+        </div>
+        <br>
+        <hr id="line">
+        <span id="empate">O jogo deu Empate!! Não houve vencedor.</span>
+
+
+    </form>
+
+             </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

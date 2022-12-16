@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xadrez</title>
+
+    <script defer src="./js/script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Descubra a duração da sua partida de Xadrez</h1>
+    <form action="">
+
+        <p>Digite o horario inicial do jogo: </p>
+        <input type="number" id="dInicial" placeholder="Dia inicial"><br>
+        <input type="number" id="hInicial" placeholder="Hora inicial"><br>
+
+        <p>Digite o horario final do jogo :</p>
+        <input type="number" id="dFinal" placeholder="Dia final"><br>
+        <input type="number" id="hFinal" placeholder="Hora final"><br>
+
+        <p>Sua quantidade de horas jogadas foi: </p>
+        <input type="number" id="hJogadas" disabled="disabled"><br>
+
+        <input type="button" value="Verificar" onclick="duracaoXadrez()"><br>
+
+
+    </form>
+
+
+    
+</body>
+</html>

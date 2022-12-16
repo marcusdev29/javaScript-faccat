@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+ 
+    :root{
+
+        /* Caso a paleta seja verde */
+        --branco:#fff;
+        --azul-clariho:#BBE7D3;
+        --verde-claro:#5AE4A8;
+        --verde-escuro:#21363A;
+        --cinza-medio:#717575;
+        --cinza-escuro:#5A6568;
+
+
+    }
+
+
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}

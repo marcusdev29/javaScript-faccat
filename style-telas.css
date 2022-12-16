@@ -1,0 +1,35 @@
+:root{
+    --rosa:#D9375F;
+    --roxo-escuro:#180A11;
+    --rosinha:#FF215E;
+    --rosa-claro:#eba5b6;
+    --branco:#fff;
+    --preto:#000;
+}
+
+.partet{
+padding: 40px;
+background:var(--rosa-claro);
+}
+
+.text{
+font-family: 'Poppins', sans-serif;
+color:var(--branco) ;
+}
+
+p{
+font-family: 'Poppins', sans-serif;
+}
+
+.conteudo input{
+padding: 2px;
+outline: none;
+border: 1px solid #333;
+border-radius: 6px;
+margin: 5px;
+}
+
+input::placeholder{
+font-family: 'Poppins', sans-serif;
+padding: 10px;
+}

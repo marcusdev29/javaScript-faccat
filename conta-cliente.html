@@ -1,0 +1,59 @@
+<!-- Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. Após, calcular e escrever o saldo atual
+(saldo atual = saldo - débito + crédito). Também testar se saldo atual for maior ou igual a zero escrever a mensagem
+'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./js/script.js" defer></script>
+    
+    
+        <link rel="stylesheet" href="../css/style-telas.css">
+        <link rel="stylesheet" href="../css/style-global.css">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+           <title>aprovado</title> 
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="partet">
+             <div class="text">
+
+    <h1>Descubra se o saldo da sua conta é positivo ou negativo</h1>
+    <form action="">
+
+        <p>Digite o numero da sua conta</p>
+        <input type="number" id="nConta" placeholder="numero da conta"><br>
+
+        <p>Digite o seu saldo anterior</p>
+        <input type="number" id="saldoAnterior" placeholder="saldo anterior"><br>
+
+        <p>Digite o valor do débito</p>
+        <input type="number" id="debito" placeholder="valor debito"><br>
+
+        <p>Digite o valor do crédito</p>
+        <input type="number" id="credito" placeholder="valor credito"><br>
+
+        <input type="button" value="calcular" onclick="positivoNegativo()"><br>
+
+        <input type="number" id="saldo" disabled="disabled"><br>
+
+        <span id="positivo">Seu saldo é positivo!!</span>
+        <span id="negativo">Seu saldo é negativo!! Cuide melhor do seu dinheiro! </span>
+
+        
+
+
+    </form>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

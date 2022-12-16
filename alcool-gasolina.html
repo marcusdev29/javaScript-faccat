@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+
+
+    <link rel="stylesheet" href="../css/style-telas.css">
+    <link rel="stylesheet" href="../css/style-global.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <title>Posto de combustivel</title>
+</head>
+
+<body>
+ 
+
+    <div class="container">
+        <div class="partet">
+    <form action="">
+           
+    <div class="text">
+        <h1>Descubra o valor a ser pago para gasolina ou Álcool</h1>
+    </div>  
+
+        <h2>Bem vindo ao Seu Tanque! Deseja abastecer seu tanque com qual opção?</h2>
+
+        <select id="opcSelect">
+            <option selected>Escolha as opções abaixo</option>
+            <option value="1">Gasolina</option>
+            <option value="2">Álcool</option>
+        </select>
+
+        <input type="button" value="Verificar" onclick="escolhaAbastecimento()">
+
+        <div id="gasolina">
+
+            <h2>Você escolheu Gasolina!!</h2>
+
+            <p>Quantos litros deseja? </p>
+            <input type="number" id="litroGasolina" placeholder="Quantidade de litros"><br>
+
+            <input type="button" value="calcular" onclick="calculoGasolina()">
+
+            <p>Muito bem!! o seu valor a pagar é de: </p>
+            <input type="number" id="valorGasolina" disabled="disabled"><br>
+            <br>
+        </div>
+
+        <div id="alcool">
+
+            <h2>Você escolheu Álcool!!</h2>
+
+            <p>Quantos litros deseja? </p>
+            <input type="number" id="litroAlcool" placeholder="Quantidade de litros"><br>
+
+            <input type="button" value="calcular" onclick="calculoAlcool()">
+
+            <p>Muito bem!! o seu valor a pagar é de: </p>
+            <input type="number" id="valorAlcool" disabled="disabled"><br>
+
+        </div>
+        <span id="invalido">Essa opção não é valida!! Por favor, escolha outra</span>
+
+
+    </form>
+
+    </div>
+</div>
+</body>
+
+</html>

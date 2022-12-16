@@ -1,0 +1,7 @@
+#gasolina, #alcool, #invalido{
+    display: none;
+}
+
+#invalido{
+    color: red;
+}

@@ -1,0 +1,56 @@
+<!-- Faça um algoritmo para ler: quantidade atual em estoque, quantidade máxima em estoque e quantidade mínima em estoque de
+um produto. Calcular e escrever a quantidade média ((quantidade média = quantidade máxima + quantidade mínima)/2). Se a
+quantidade em estoque for maior ou igual a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever a
+mensagem 'Efetuar compra'. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./js/script.js" defer></script>
+    
+    
+        <link rel="stylesheet" href="../css/style-telas.css">
+        <link rel="stylesheet" href="../css/style-global.css">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+           <title>estoque</title> 
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="partet">
+             <div class="text">
+    <h1>Descubra se o seu estoque está de boas ou não</h1>
+    <form action="">
+
+        <p>Digite a quantidade atual de produtos em estoque</p>
+        <input type="number" id="qntdAtual" placeholder="Quantidade estoque"><br>
+
+        <p>Digite a quantidade maxima de produtos em estoque</p>
+        <input type="number" id="qntdMaxima" placeholder="saldo anterior"><br>
+
+        <p>Digite a quantidade minima de produtos em estoque</p>
+        <input type="number" id="qntdMinima" placeholder="valor debito"><br>
+
+
+        <input type="button" value="calcular" onclick="estoque()"><br>
+
+        <span id="naoEfetuar">Não é possível deixar efetuar alguma compra!! Abasteça seu estoque.</span>
+        <span id="efetuar">É possível efetuar compras, já que você tem estoque. </span>
+
+
+
+
+    </form>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!-- Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. Após, calcular e escrever o saldo atual
+(saldo atual = saldo - débito + crédito). Também testar se saldo atual for maior ou igual a zero escrever a mensagem
+'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./js/script.js" defer></script>
+    
+    
+        <link rel="stylesheet" href="../css/style-telas.css">
+        <link rel="stylesheet" href="../css/style-global.css">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+           <title>aprovado</title> 
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="partet">
+             <div class="text">
+
+    <h1>Descubra seu salario</h1>
+    <form action="">
+
+        <p>Digite as horas trabalhadas no mês</p>
+        <input type="number" id="htrabalhadas" placeholder="horas trabalhadas"><br>
+
+        <p>Digite o valor recebido por hora</p>
+        <input type="number" id="vHora" placeholder="valor por hora"><br>
+
+
+        <input type="button" value="calcular" onclick="Salario()"><br>
+
+
+        <div id="semHoraExtra">
+            <p>Você não fez nenhuma hora extra, portanto, seu salario é de:</p>
+            <input type="number" id="nExtra" disabled="disabled"><br>
+        </div>
+
+        <div id="comHoraExtra">
+            <p>Caramba, você fez hora extra!!! Seu salario teve um aumento. Agora, ele é de:</p>
+            <input type="number" id="sExtra" disabled="disabled"><br>
+        </div>
+
+
+
+    </form>
+
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
